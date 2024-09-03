@@ -14,6 +14,7 @@ content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
 }
 
 
@@ -23,6 +24,9 @@ ul {
 	padding: 0;
 	display: flex;
 	gap: 20px;
+	border: #6ac3e1;
+	border-style: solid;
+	border-radius: 10px;
 }
 
 
@@ -30,7 +34,7 @@ li a {
 	display: block;
 	color: black;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 12px;
 	text-decoration: none;
 }
 
