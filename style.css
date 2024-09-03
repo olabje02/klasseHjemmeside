@@ -1,15 +1,56 @@
 body {
+	color:black;
+}
+
+content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+
 h1 {
 	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
 }
 
-.info{
-	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-
+p {
+	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
 
 }
+
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	size:20%;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+
+  }
+  
+  
+  li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #6ac3e1;
+  }
+  
+  .active {
+	background-color: #2cdb9b;
+  }
+
+
