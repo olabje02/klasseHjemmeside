@@ -72,3 +72,21 @@ a{
 a:hover{
 	color: #000000;
 }
+
+.grid {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.grid h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.grid p {
+	margin-top: 0;
+}
+
+.grid img {
+ width: 300px;
+}
