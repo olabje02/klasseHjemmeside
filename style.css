@@ -6,16 +6,7 @@ content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-
-h1 {
 	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
-}
-
-p {
-	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
-
 }
 
 
@@ -23,7 +14,6 @@ p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	size:20%;
 }
 
 
