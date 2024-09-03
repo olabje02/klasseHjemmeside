@@ -62,7 +62,8 @@ footer{
 a{
 	color:#000000;
 	padding: 20px;
-	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;SS
+	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
+	border: #4e5760;
 	border-radius: 10px;
 
 }
