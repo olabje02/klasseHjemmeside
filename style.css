@@ -23,24 +23,23 @@ ul {
 	padding: 0;
 	display: flex;
 	gap: 20px;
+}
 
-  }
-  
-  
-  li a {
+
+li a {
 	display: block;
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
+}
+
+li a:hover:not(.active) {
 	background-color: #6ac3e1;
-  }
-  
-  .active {
+}
+
+.active {
 	background-color: #2cdb9b;
-  }
+}
 
 
