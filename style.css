@@ -1,5 +1,7 @@
 body {
 	color:black;
+	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
+
 }
 
 content {
@@ -46,4 +48,28 @@ li a:hover:not(.active) {
 	background-color: #2cdb9b;
 }
 
+footer{
+	border-top: 3px solid #4e5760;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
 
+
+}
+
+
+a{
+	color:#6ac3e1;
+	padding: 20px;
+	font-family: Calibri,Candara,Segoe,Segoe UI, Optima,Arial, sans-serif;
+}
+
+
+footer:link{
+	color:black
+}
+
+a:hover{
+	color: #9de5fd;
+}
