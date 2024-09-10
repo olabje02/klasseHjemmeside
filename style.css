@@ -32,6 +32,8 @@ ul {
 }
 
 
+
+
 li a {
 	display: block;
 	color: black;
@@ -94,20 +96,35 @@ a:hover{
 }
 
 
-.ft-main{
-	padding: 1.25rem 1.875rem;
-	display: flex;
-	flex-wrap: wrap;
+
+
+
+
+
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
 }
 
 
-.ft-lenker {
-	display: flex;
-	justify-content: center;
-	border-top: 1px #777 solid;
-	padding-top: 1.25rem;
-  }
-  .ft-lenker li {
-	margin: 0.5rem;
-	font-size: 1.25rem;
-  }
+
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
