@@ -88,8 +88,16 @@ a:hover{
 	margin-bottom: 0;
 }
 
-.grid p {
+.grid h2 {
+	font-weight: normal;
 	margin-top: 0;
+	font-size: large;
+}
+
+.grid p {
+	font-size: large;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .grid img {
