@@ -130,7 +130,6 @@ a:hover{
 .ft-main-item {
   padding: 1.25rem;
   min-width: 12.5rem;
+		margin-left: 10em;
+		margin-right: 10em;
 }
-
-
-
